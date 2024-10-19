@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:"pappirs",sans-serif ;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height :100vh; 
+    background: #eee;
+
+}
+.special{
+    width: 420px;
+    background: peru;
+    color: #fff;
+    border-radius:10px ;
+}
+.special h1{
+    font-size: 36px;
+    text-align: center;
+}
+.special input-box{
+    width: 100%;
+    height: 50;
+    background: salmon;
+    margin: 30px;
+}
+.input-box  {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid
+    rgbac(255,255,255,2);
+    border-radius: 40px;
+}
+.input-box input::placeholder{
+    color: black;
+}
+.special .remember-forget{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: 15px;
+}
+.remember-forget label input{
+    accent-color: #fff;
+    margin-right: 3px;
+} 
+.remember-forget a{
+    text-decoration:none ;
+}
+.remember-forget a:hover{
+    text-decoration: underline;
+}
+.special .btn{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+ .special .register-link{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+ }
+ .register-link p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+ }
+ .register-link p a :hover{
+    text-decoration: underline;
+
+ }
+
+
+
+}
